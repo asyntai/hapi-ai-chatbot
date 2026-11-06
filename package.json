@@ -1,0 +1,50 @@
+{
+  "name": "hapi-ai-chatbot",
+  "version": "1.0.0",
+  "description": "hapi plugin that adds the Asyntai AI chat assistant to every HTML page your server sends. It answers visitor questions from your own content, in 80+ languages.",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "hapi",
+    "hapi-plugin",
+    "chatbot",
+    "ai-chatbot",
+    "ai",
+    "chat",
+    "chat-widget",
+    "live-chat",
+    "customer-support",
+    "asyntai"
+  ],
+  "homepage": "https://asyntai.com/documentation/integrations/hapi/",
+  "bugs": {
+    "url": "https://github.com/asyntai/hapi-ai-chatbot/issues",
+    "email": "hello@asyntai.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyntai/hapi-ai-chatbot.git"
+  },
+  "author": "Asyntai <hello@asyntai.com> (https://asyntai.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0"
+  },
+  "scripts": {
+    "test": "node --test tests/plugin.test.js"
+  },
+  "peerDependencies": {
+    "@hapi/hapi": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@hapi/hapi": "^21.0.0",
+    "@hapi/inert": "^7.0.0",
+    "@hapi/vision": "^7.0.0",
+    "handlebars": "^4.7.0"
+  }
+}
